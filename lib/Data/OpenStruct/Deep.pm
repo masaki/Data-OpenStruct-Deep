@@ -79,7 +79,11 @@ Data::OpenStruct::Deep - allows you to create data objects and set arbitrary att
 
 =head1 DESCRIPTION
 
-Data::OpenStruct::Deep is
+This module allows you to craete data objects and set arbitrary attribtues.
+
+It is like a hash with a different way to access the data.
+In fact, it is implemented with a hash and C<AUTOLOAD>,
+and you can initialize it with one.
 
 =head1 METHODS
 
@@ -98,7 +102,7 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Hash::AsObject>, L<Object::AutoAccessor>,
+L<Hash::AsObject>, L<Object::AutoAccessor>, L<Hash::Inflator>,
 
 L<http://www.ruby-doc.org/stdlib/libdoc/ostruct/rdoc/classes/OpenStruct.html>
 
