@@ -79,7 +79,7 @@ Data::OpenStruct::Deep - allows you to create data objects and set arbitrary att
 
 =head1 DESCRIPTION
 
-This module allows you to craete data objects and set arbitrary attribtues.
+This module allows you to create data objects and set arbitrary attributes.
 
 It is like a hash with a different way to access the data.
 In fact, it is implemented with a hash and C<AUTOLOAD>,
