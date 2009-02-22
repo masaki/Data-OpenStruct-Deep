@@ -26,7 +26,7 @@ sub AUTOLOAD {
     my ($method) = $AUTOLOAD =~ /([^:]+)$/;
     return if $method eq 'DESTROY';
 
-    if (Want::want('OBJECT')) {
+    if (Want::want('OBJECT', 'SCALAR')) {
         # method chain
         push @{ $self->{__stack} }, $method;
         return $self;
